@@ -1,2 +1,0 @@
-# ImageCoreEngineTool
-image engine SDK
