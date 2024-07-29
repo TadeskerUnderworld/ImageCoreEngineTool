@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		847604F12C5747B000EE8756 /* GTRPImageCoreEngine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 847604F02C5747B000EE8756 /* GTRPImageCoreEngine.framework */; };
 		847A5E1C2C4E12F70009DED0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847A5E1B2C4E12F70009DED0 /* AppDelegate.swift */; };
 		847A5E1E2C4E12F70009DED0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847A5E1D2C4E12F70009DED0 /* SceneDelegate.swift */; };
 		847A5E202C4E12F70009DED0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847A5E1F2C4E12F70009DED0 /* ViewController.swift */; };
@@ -16,7 +17,6 @@
 		847A5E332C4E12F80009DED0 /* ImageCoreEngineToolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847A5E322C4E12F80009DED0 /* ImageCoreEngineToolTests.swift */; };
 		847A5E3D2C4E12F80009DED0 /* ImageCoreEngineToolUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847A5E3C2C4E12F80009DED0 /* ImageCoreEngineToolUITests.swift */; };
 		847A5E3F2C4E12F80009DED0 /* ImageCoreEngineToolUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847A5E3E2C4E12F80009DED0 /* ImageCoreEngineToolUITestsLaunchTests.swift */; };
-		847A5E552C4E143F0009DED0 /* GTRPImageCoreEngine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 847A5E542C4E143F0009DED0 /* GTRPImageCoreEngine.framework */; };
 		847A5E572C4E14440009DED0 /* GTRPImageCoreEngine.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 847A5E562C4E14440009DED0 /* GTRPImageCoreEngine.bundle */; };
 /* End PBXBuildFile section */
 
@@ -38,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		847604F02C5747B000EE8756 /* GTRPImageCoreEngine.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GTRPImageCoreEngine.framework; sourceTree = "<group>"; };
 		847A5E182C4E12F70009DED0 /* ImageCoreEngineTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageCoreEngineTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		847A5E1B2C4E12F70009DED0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		847A5E1D2C4E12F70009DED0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,7 +52,6 @@
 		847A5E382C4E12F80009DED0 /* ImageCoreEngineToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageCoreEngineToolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		847A5E3C2C4E12F80009DED0 /* ImageCoreEngineToolUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCoreEngineToolUITests.swift; sourceTree = "<group>"; };
 		847A5E3E2C4E12F80009DED0 /* ImageCoreEngineToolUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCoreEngineToolUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		847A5E542C4E143F0009DED0 /* GTRPImageCoreEngine.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GTRPImageCoreEngine.framework; sourceTree = "<group>"; };
 		847A5E562C4E14440009DED0 /* GTRPImageCoreEngine.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GTRPImageCoreEngine.bundle; sourceTree = "<group>"; };
 		847A5E582C4E14770009DED0 /* ImageCoreEngineTool-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ImageCoreEngineTool-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -61,7 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				847A5E552C4E143F0009DED0 /* GTRPImageCoreEngine.framework in Frameworks */,
+				847604F12C5747B000EE8756 /* GTRPImageCoreEngine.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,8 +85,8 @@
 		847A5E0F2C4E12F70009DED0 = {
 			isa = PBXGroup;
 			children = (
+				847604F02C5747B000EE8756 /* GTRPImageCoreEngine.framework */,
 				847A5E562C4E14440009DED0 /* GTRPImageCoreEngine.bundle */,
-				847A5E542C4E143F0009DED0 /* GTRPImageCoreEngine.framework */,
 				847A5E1A2C4E12F70009DED0 /* ImageCoreEngineTool */,
 				847A5E312C4E12F80009DED0 /* ImageCoreEngineToolTests */,
 				847A5E3B2C4E12F80009DED0 /* ImageCoreEngineToolUITests */,
@@ -454,6 +454,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/ImageCoreEngineMagic/Frameworks",
@@ -489,6 +490,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/ImageCoreEngineMagic/Frameworks",
